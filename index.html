@@ -23,13 +23,33 @@
 
 
         .safeguarding {
-            background-image: url('path/to/your/image.jpg');
+            background-image: url('assets/images/hero2.png');
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .safeguarding::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Translucent overlay */
+            z-index: 1;
+        }
+
+        .safeguarding>.container {
+            position: relative;
+            z-index: 2;
             background-size: cover;
             background-position: center;
             margin-top: 56px;
             padding: 100px 20px;
             /* Ensure padding for content */
-            background-color: #cccccc;
+            background-color: rgba(0, 0, 0, 0.8);
             /* Placeholder background color */
             color: white;
             display: flex;
@@ -40,10 +60,31 @@
             /* Ensure it takes at least full viewport height */
         }
 
+        .paragraph {
+            position: relative;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+
+        .paragraph::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('path/to/your/image.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.3;
+            z-index: -1;
+            border-radius: 10px;
+        }
+
         .test-section {
             min-height: 50vh;
             border: 1px solid black;
-            
         }
 
         /* Media Queries */
@@ -130,34 +171,183 @@
         <section id="what" class="py-5 test-section">
             <div class="container">
                 <h2>What is Safeguarding and Why is it Important?</h2>
-                <p>Safeguarding is the process of protecting individuals, especially children, young people, and
-                    vulnerable adults, from abuse, harm, and neglect. It encompasses a range of measures aimed at
-                    ensuring their safety, well-being, and human rights are respected. This includes preventing abuse
-                    before it happens, responding effectively to incidents when they occur, and promoting a culture of
-                    safety in all settings.</p>
+                <div class="paragraph">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>Safeguarding is the process of protecting individuals, especially children, young people,
+                                and
+                                vulnerable adults, from abuse, harm, and neglect. It encompasses a range of measures
+                                aimed at
+                                ensuring their safety, well-being, and human rights are respected. This includes
+                                preventing abuse
+                                before it happens, responding effectively to incidents when they occur, and promoting a
+                                culture of
+                                safety in all settings.</p>
 
-                    <p>Safeguarding is crucial because it helps create environments where individuals can live, learn, and
-                    grow without fear. It ensures that the most vulnerable members of society are protected from harm
-                    and can lead fulfilling lives. By understanding the signs of abuse, knowing how to report concerns,
-                    and implementing protective measures, we can work together to prevent harm and support those who may
-                    be at risk. Safeguarding is not just the responsibility of professionals; it is a shared duty that
-                    requires community awareness and proactive action.</p>
+                            <p>Safeguarding is crucial because it helps create environments where individuals can live,
+                                learn, and
+                                grow without fear. It ensures that the most vulnerable members of society are protected
+                                from harm
+                                and can lead fulfilling lives. By understanding the signs of abuse, knowing how to
+                                report concerns,
+                                and implementing protective measures, we can work together to prevent harm and support
+                                those who may
+                                be at risk. Safeguarding is not just the responsibility of professionals; it is a shared
+                                duty that
+                                requires community awareness and proactive action.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/images/what.jpeg" alt="What is safeguarding" class="img-fluid"
+                                style="max-width: 100%;">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="principles" class="py-5 test-section">
             <div class="container">
                 <h2>The 6 Principles of Safeguarding</h2>
-                <p>Content for section 1.</p>
+                <div class="paragraph">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>The principles of safeguarding provide a foundation for protecting individuals from harm,
+                                ensuring
+                                that policies and practices are designed to support the well-being and safety of all.
+                                These six
+                                principles guide organizations and individuals in creating safe environments and
+                                responding
+                                effectively to safeguarding concerns.</p>
+
+
+                            <ol>
+                                <li>
+                                    <strong>Empowerment</strong>
+                                    <p>People should be supported and encouraged to make their own decisions and give
+                                        informed
+                                        consent. Empowerment involves respecting individuals' rights to make choices and
+                                        ensuring
+                                        they have the information needed to understand the risks involved. It is about
+                                        treating
+                                        people with dignity and valuing their input in decisions that affect their
+                                        safety and
+                                        well-being.</p>
+                                </li>
+                                <li>
+                                    <strong>Prevention</strong>
+                                    <p>It is essential to take proactive measures to prevent abuse or neglect before it
+                                        occurs.
+                                        This
+                                        principle focuses on raising awareness, implementing clear policies, and
+                                        educating
+                                        individuals and organizations on recognizing the signs of harm. Preventing abuse
+                                        not
+                                        only
+                                        reduces the risk but also fosters a culture where safeguarding is an integral
+                                        part of
+                                        everyday practice.</p>
+                                </li>
+                                <li>
+                                    <strong>Proportionality</strong>
+                                    <p>Any safeguarding response should be appropriate to the level of risk involved.
+                                        Proportionality ensures that actions are taken in the least intrusive way
+                                        possible,
+                                        respecting the rights of the individual while addressing safety concerns. It
+                                        emphasizes
+                                        finding a balanced approach that prioritizes well-being without unnecessarily
+                                        restricting
+                                        freedom.</p>
+                                </li>
+                                <li>
+                                    <strong>Protection</strong>
+                                    <p>Those who are vulnerable or at risk must be supported and safeguarded from harm.
+                                        This
+                                        principle emphasizes the importance of identifying people in need of protection
+                                        and
+                                        taking
+                                        swift, appropriate action to keep them safe. It involves ensuring that support
+                                        systems
+                                        are
+                                        in place to help those who may be unable to protect themselves due to age,
+                                        disability,
+                                        or
+                                        other factors.</p>
+                                </li>
+                                <li>
+                                    <strong>Partnership</strong>
+                                    <p>Effective safeguarding relies on collaboration across different organizations,
+                                        communities,
+                                        and individuals. By working together, sharing information, and coordinating
+                                        responses,
+                                        safeguarding efforts can be more effective and comprehensive. This principle
+                                        highlights
+                                        the
+                                        importance of building strong partnerships to ensure a consistent approach to
+                                        safeguarding
+                                        across all sectors.</p>
+                                </li>
+                                <li>
+                                    <strong>Accountability</strong>
+                                    <p>There must be clear roles and responsibilities for safeguarding to ensure
+                                        transparency
+                                        and
+                                        accountability. This principle involves making sure that everyone understands
+                                        their role
+                                        in
+                                        safeguarding and is held responsible for their actions. Proper record-keeping,
+                                        regular
+                                        reviews, and adherence to safeguarding policies help maintain high standards and
+                                        improve
+                                        safeguarding practices.</p>
+                                </li>
+                            </ol>
+
+                            <p>These principles serve as a framework for ensuring that safeguarding efforts are
+                                respectful,
+                                effective, and grounded in the best interests of those who may be at risk.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/images/principles.jpeg" alt="male guardian with children in the park"
+                                class="img-fluid" style="max-width: 100%;">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="identify" class="py-5 bg-light test-section">
+        <section id="identify" class="py-5 test-section">
             <div class="container">
                 <h2>How to Identify Safeguarding Concerns</h2>
-                <p>Content for section 2.</p>
+                <div class="paragraph">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>Recognizing safeguarding concerns is essential for protecting individuals from harm.
+                                Signs of abuse, neglect, or exploitation can be physical, emotional, or behavioral, and
+                                may vary depending on the person's age or situation. Common indicators include
+                                unexplained injuries, changes in behavior, withdrawal from social interactions,
+                                fearfulness, or a sudden decline in health or hygiene.</p>
+
+                                <p>It’s also important to look for signs of financial abuse, such as unusual bank activity
+                                or unpaid bills, and indicators of neglect, like poor living conditions or unmet medical
+                                needs. Trust your instincts—if something doesn’t seem right, it’s worth taking action.
+                                Early identification and reporting can make a crucial difference in preventing harm and
+                                ensuring individuals receive the support they need.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/images/identify.jpeg" alt="female guardian with children in the park"
+                                class="img-fluid" style="max-width: 100%;">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
+
+
+
+
+
+
 
         <section id="respond" class="py-5 test-section">
             <div class="container">

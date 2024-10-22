@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit-safeguarding-report" method="POST">
+        <label for="reporter_name">Your Name (optional):</label>
+        <input type="text" id="reporter_name" name="reporter_name" placeholder="Your Name (optional)">
+        
+        <label for="reporter_email">Your Email (optional):</label>
+        <input type="email" id="reporter_email" name="reporter_email" placeholder="Your Email (optional)">
+        
+        <label for="incident_date">Date of Incident:</label>
+        <input type="date" id="incident_date" name="incident_date" required>
+        
+        <label for="incident_time">Time of Incident (if known):</label>
+        <input type="time" id="incident_time" name="incident_time">
+        
+        <label for="incident_location">Location of Incident:</label>
+        <input type="text" id="incident_location" name="incident_location" placeholder="Location of Incident" required>
+        
+        <label for="person_involved">Person(s) Involved (if known):</label>
+        <input type="text" id="person_involved" name="person_involved" placeholder="Name of Person Involved (if known)">
+        
+        <label for="relationship">Relationship to you (if any):</label>
+        <input type="text" id="relationship" name="relationship" placeholder="Relationship to you">
+        
+        <label for="concern_type">Type of Concern:</label>
+        <select id="concern_type" name="concern_type" required>
+            <option value="">Select Concern Type</option>
+            <option value="physical_abuse">Physical Abuse</option>
+            <option value="emotional_abuse">Emotional Abuse</option>
+            <option value="sexual_abuse">Sexual Abuse</option>
+            <option value="neglect">Neglect</option>
+            <option value="financial_abuse">Financial Abuse</option>
+            <option value="other">Other</option>
+        </select>
+        
+        <label for="concern_description">Description of the Concern:</label>
+        <textarea id="concern_description" name="concern_description" placeholder="Please describe the concern in detail" rows="5" required></textarea>
+        
+        <label>Have You Reported This to Anyone Else?</label>
+        <input type="radio" id="reported_yes" name="reported_elsewhere" value="yes"> Yes
+        <input type="radio" id="reported_no" name="reported_elsewhere" value="no"> No
+        
+        <label for="other_reports">If Yes, Who Have You Reported It To? (optional):</label>
+        <input type="text" id="other_reports" name="other_reports" placeholder="Please specify (optional)">
+        
+        <label>
+            <input type="checkbox" name="consent" required> I consent to the information being shared with the appropriate safeguarding authorities.
+        </label>
+        
+        <label>
+            <input type="checkbox" name="captcha"> I am not a robot
+        </label>
+        
+        <button type="submit">Submit Report</button>
+    </form>
+    
+</body>
+</html>

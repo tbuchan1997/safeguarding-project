@@ -13,6 +13,9 @@ section {
 .show-on-tablet {
     display: none;
 }
+
+
+
 /*Media Queries*/
 
 /*Up to 768px (mobile only)*/
@@ -29,6 +32,9 @@ section {
     .show-on-tablet {
         display: block; /*Shows image on tablets*/
     }
+    .card-body {
+        min-height: 350px; /*Makes all cards the same height*/     
+    }
 }
 
 /*992px and up (laptops)*/
@@ -36,6 +42,9 @@ section {
 @media screen and (min-width: 992px) {
     .hide-on-large {
         display: none; /*Hides surplus images on laptops for formatting*/
+    }
+    .card-body {
+        min-height: 300px; /*Makes all cards the same height*/     
     }
 }
 

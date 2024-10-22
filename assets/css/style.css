@@ -10,25 +10,40 @@ section {
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.show-on-tablet {
+    display: none;
+}
 /*Media Queries*/
+
+/*Up to 768px (mobile only)*/
 
 @media screen and (max-width: 768px) {
     .hide-on-mobile {
         display: none; /*Hides surplus images on mobile to save space*/
+    }
+}
+
+/*768 and up (tablets)*/
+
+@media screen and (min-width: 768px) {
+    .show-on-tablet {
+        display: block; /*Shows image on tablets*/
+    }
+}
+
+/*992px and up (laptops)*/
+
+@media screen and (min-width: 992px) {
+    .hide-on-large {
+        display: none; /*Hides surplus images on laptops for formatting*/
+    }
+}
+
+
+/*1200px and up (large desktops)*/
+
+@media screen and (min-width: 1200px) {
+    .hide-on-x-large {
+        display: none; /*Hides surplus images on large desktops for formatting*/
     }
 }

@@ -4,121 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Safeguarding Information Hub</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/34a949671a.js" crossorigin="anonymous"></script>
-    <!-- Copilot generated CSS -->
-    <style>
-        .navbar {
-            margin-bottom: 20px;
-        }
-
-        h2,
-        p {
-            margin-bottom: 20px;
-        }
-
-
-
-        .safeguarding {
-            background-image: url('assets/images/hero2.png');
-            position: relative;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .safeguarding::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            /* Translucent overlay */
-            z-index: 1;
-        }
-
-        .safeguarding>.container {
-            position: relative;
-            z-index: 2;
-            background-size: cover;
-            background-position: center;
-            margin-top: 56px;
-            padding: 100px 20px;
-            /* Ensure padding for content */
-            background-color: rgba(0, 0, 0, 0.8);
-            /* Placeholder background color */
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            min-height: 100vh;
-            /* Ensure it takes at least full viewport height */
-        }
-
-        .paragraph {
-            position: relative;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8);
-            border-radius: 10px;
-        }
-
-        .paragraph::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url('path/to/your/image.jpg');
-            background-size: cover;
-            background-position: center;
-            opacity: 0.3;
-            z-index: -1;
-            border-radius: 10px;
-        }
-
-        .test-section {
-            min-height: 50vh;
-            border: 1px solid black;
-        }
-
-        /* Media Queries */
-        @media (min-width: 576px) {
-            .safeguarding {
-                padding: 150px 20px;
-            }
-        }
-
-        @media (min-width: 768px) {
-            .safeguarding {
-                padding: 200px 20px;
-            }
-        }
-
-        @media (min-width: 992px) {
-            .safeguarding {
-                padding: 250px 20px;
-            }
-        }
-
-        @media (min-width: 1200px) {
-            .safeguarding {
-                padding: 300px 20px;
-            }
-        }
-    </style>
+    <script src="https://kit.fontawesome.com/34a949671a.js" crossorigin="anonymous"></script>
+    
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#home">Jump to:</a>
+            <a class="navbar-brand" href="#home">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -126,27 +26,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#what">What is Safeguarding?</a>
+                        <a class="nav-link" href="procedures.html">Identify</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#principles">Principles</a>
+                        <a class="nav-link" href="resources.html">Additional Resources</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#identify">Identify</a>
+                        </ul>
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-info text-black" href="report.html">Report a Concern Here</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#respond">Responding</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#report">Reporting</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#additional">Additional Resources</a>
-                    </li>
-
                 </ul>
             </div>
         </div>
@@ -314,163 +209,52 @@
                 </div>
             </div>
         </section>
-
-        <section id="identify" class="py-5 test-section">
-            <div class="container">
-                <h2>How to Identify Safeguarding Concerns</h2>
-                <div class="paragraph">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>Recognizing safeguarding concerns is essential for protecting individuals from harm.
-                                Signs of abuse, neglect, or exploitation can be physical, emotional, or behavioral, and
-                                may vary depending on the person's age or situation. Common indicators include
-                                unexplained injuries, changes in behavior, withdrawal from social interactions,
-                                fearfulness, or a sudden decline in health or hygiene.</p>
-
-                            <p>It’s also important to look for signs of financial abuse, such as unusual bank activity
-                                or unpaid bills, and indicators of neglect, like poor living conditions or unmet medical
-                                needs. Trust your instincts—if something doesn’t seem right, it’s worth taking action.
-                                Early identification and reporting can make a crucial difference in preventing harm and
-                                ensuring individuals receive the support they need.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="assets/images/identify.jpeg" alt="female guardian with children in the park"
-                                class="img-fluid" style="max-width: 100%;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="respond" class="py-5 test-section">
-            <div class="container">
-                <h2>Steps to Take in a Safeguarding Situation</h2>
-                <div class="paragraph">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>Safeguarding is about protecting individuals, particularly vulnerable people, from abuse,
-                                harm, and neglect. In any safeguarding situation, it is crucial to act quickly and
-                                appropriately to ensure the safety of those at risk. Here are the essential steps to
-                                take:</p>
-                            <ol>
-                                <li>
-                                    <strong>Identify the Safeguarding Concern</strong>
-                                    <ul>
-                                        <li>Recognize potential signs of abuse, neglect, or exploitation. Concerns can
-                                            arise from observations, disclosures, or changes in behavior.</li>
-                                        <li>If the individual shares their experience with you, listen carefully and
-                                            take it seriously.</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>Ensure Immediate Safety</strong>
-                                    <ul>
-                                        <li>If there is an immediate risk to the person’s safety or well-being, contact
-                                            emergency services right away (999 or the local emergency number).</li>
-                                        <li>Take steps to protect the individual from further harm, if it is safe to do
-                                            so, while waiting for assistance.</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>Follow Your Organization’s Safeguarding Procedures</strong>
-                                    <ul>
-                                        <li>Every organization should have a safeguarding policy that outlines the steps
-                                            for reporting concerns. Follow these procedures, which usually involve
-                                            informing a designated safeguarding officer (DSO) or lead.</li>
-                                        <li>Provide all the details you have, including what you observed, what was
-                                            disclosed, and any immediate actions taken.</li>
-                                        <li>Keep information confidential and only share it with those involved in
-                                            handling the concern.</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>Contact Local Authorities or Safeguarding Services</strong>
-                                    <ul>
-                                        <li>If you do not have an organizational procedure to follow, or if the concern
-                                            is outside the organization’s remit, contact local safeguarding services
-                                            directly. This might include social services, child protection teams, or
-                                            adult safeguarding boards.</li>
-                                        <li>Provide a detailed account of your concerns, including the individual’s
-                                            name, age, address, and the nature of the concern.</li>
-                                        <li>If you’re unsure where to report, consult local safeguarding guidance or a
-                                            safeguarding helpline.</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>Make a Written Record</strong>
-                                    <ul>
-                                        <li>Document the concern as soon as possible, including dates, times, the nature
-                                            of the concern, and any actions taken.</li>
-                                        <li>If there was a disclosure, record the individual’s exact words without
-                                            editing or interpreting what they said.</li>
-                                        <li>Keep the record factual, objective, and secure. Your report may be used as
-                                            part of a formal investigation.</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>Follow Up and Stay Informed</strong>
-                                    <ul>
-                                        <li>After reporting, stay in contact with the safeguarding lead or the relevant
-                                            authority to ensure the concern is being addressed.</li>
-                                        <li>Avoid conducting your own investigation; leave this to the professionals
-                                            involved.</li>
-                                        <li>Be available to provide any further information if needed.</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>Protect Your Own Well-being</strong>
-                                    <ul>
-                                        <li>Reporting a safeguarding concern can be emotionally challenging. Seek
-                                            support if you feel distressed or overwhelmed.</li>
-                                        <li>If possible, access supervision or counseling services provided by your
-                                            organization.</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>Maintain Confidentiality Throughout</strong>
-                                    <ul>
-                                        <li>Do not share details of the concern with anyone not involved in the
-                                            safeguarding process.</li>
-                                        <li>Respect the individual’s privacy while fulfilling your duty to report and
-                                            protect them.</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong>Review Safeguarding Procedures Regularly</strong>
-                                    <ul>
-                                    <li>After a safeguarding concern has been addressed, the organization should review the
-                                    procedures followed during the incident.</li>
-                                    <li>Evaluate the effectiveness of the response, including any challenges or delays in
-                                    the reporting process.</li>
-                                    <li>Gather feedback from staff involved to identify areas for improvement and update the
-                                    safeguarding policy accordingly.</li>
-                                    <li>Ensure that all staff are informed of any changes in procedures and provide
-                                    additional training if necessary.</li>
-                                    <li>Regular reviews of safeguarding policies help to maintain best practices and ensure
-                                    that the organization is prepared to respond effectively to future concerns.</li>
-                                    </ul>
-                                </li>
-                            </ol>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="assets/images/respond.jpeg" alt="male guardian with children in the park"
-                                class="img-fluid" style="max-width: 100%;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="additional" class="py-5 test-section">
-            <div class="container">
-                <h2>Additional Resources and Support</h2>
-                <p></p>
-            </div>
-        </section>
-
-        <footer><a href="report.html">Report a Concern Here</a></footer>
     </main>
+    <footer class="bg-light text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="report.html" class="text-dark">Report a Concern Here</a>
+                        </li>
+                        <li>
+                            <a href="faqs.html" class="text-dark">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Follow Us</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://www.facebook.com" class="text-dark" target="_blank">
+                                <i class="fab fa-facebook-f"></i> Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com" class="text-dark" target="_blank">
+                                <i class="fab fa-twitter"></i> Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" class="text-dark" target="_blank">
+                                <i class="fab fa-instagram"></i> Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com" class="text-dark" target="_blank">
+                                <i class="fab fa-youtube"></i> YouTube
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 bg-dark text-white">
+            © 2023 Your Organization
+        </div>
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

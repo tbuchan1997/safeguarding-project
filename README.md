@@ -129,3 +129,42 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+---
+
+#**Project Docs**
+
+# Safeguarding Project
+
+This is a safeguarding information website aimed at providing resources, guidance, and support to help protect vulnerable individuals. The website covers safeguarding policies, procedures, and best practices to ensure the safety and well-being of children, young people, and adults at risk.
+
+## Website URL
+The project is hosted at: [https://tbuchan1997.github.io/safeguarding-project/index.html]
+
+## Features
+- **Safeguarding Information:** Offers comprehensive details about safeguarding principles, including what safeguarding is and why it is important.
+- **Resources and Support:** Provides access to resources for safeguarding training, policies, and guidance on handling safeguarding concerns.
+- **Contact Information:** Details on how to report safeguarding issues or seek further support.
+- **Responsive Design:** The site is mobile-friendly and accessible across various devices and screen sizes.
+- **Warm and Welcoming UI:** Designed with a warm color palette and clear typography to ensure readability and a welcoming experience.
+
+## Technologies Used
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling the website with a focus on responsive design.
+- **GitHub Pages**: For hosting the website.
+- **VSCode**: For desktop based code editing.
+- **Github CoPilot**: For debugging and code suggestions.
+- **Bootstrap5**: For templates of the navbar and cards.
+- **Coolor**: For colour palette generation.
+
+## Usage
+
+The website provides information on safeguarding practices, including:
+
+    What safeguarding entails.
+    Recognizing signs of abuse.
+    Reporting safeguarding concerns.
+    Accessing further support and resources.
+
+## Screenshots
+

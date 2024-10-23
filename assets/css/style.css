@@ -52,8 +52,10 @@ section {
 }
 
 .btn {
-    background: var(--primary-accent);
+    background-color: var(--primary-accent);
     margin-right: 20px;
+    border: none;
+    color: var(--dark-text);
 }
 
 .btn:hover {
@@ -64,6 +66,7 @@ section {
 
 .footer {
     width: 100%;
+    margin-top: 10px;
 }
 
 

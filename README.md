@@ -156,6 +156,10 @@ The project is hosted at: [https://tbuchan1997.github.io/safeguarding-project/in
 - **Github CoPilot**: For debugging and code suggestions.
 - **Bootstrap5**: For templates of the navbar and cards.
 - **Coolor**: For colour palette generation.
+- **Free Convert**: for converting image file types https://www.freeconvert.com/webp-converter/download.
+- **Favicon Generator** https://realfavicongenerator.net/.
+- **For content inspiration** https://trainingexpress.org.uk/principles-of-safeguarding/#:~:text=These%20are%20%E2%80%93%20Empowerment%2C%20Prevention%2C,protect%20the%20vulnerable%20from%20abuse.
+- **Content inspiration** https://www.virtual-college.co.uk/resources/what-are-the-6-principles-of-safeguarding
 
 ## Usage
 
@@ -167,4 +171,14 @@ The website provides information on safeguarding practices, including:
     Accessing further support and resources.
 
 ## Screenshots
+
+There are screenshots provided in assets/desktop and assets/mobile which showcase the functionality of the website on both mobile and desktop screens.
+
+## Potential future features
+
+- Javascript interactive FAQ section
+- Contact form validation
+- Modal popups with new announcements/updates
+- Make the CAPTCHA on the form functional
+- Expand resources section and include search functionality
 

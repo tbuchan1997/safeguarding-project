@@ -33,16 +33,37 @@ section {
     padding-top: 10px;
 }
 
-#navbar {
-    background-color: var(--secondary-background);
+/* Navbar */
+
+.nav {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
-#navbar a {
+.navbar,
+.footer {
+    background-color: var(--secondary-background);
+    
+}
+
+.navbar a {
     color: var(--dark-text);
+    padding-left: 10px;
 }
 
 .btn {
     background: var(--primary-accent);
+    margin-right: 20px;
+}
+
+.btn:hover {
+    background-color: var(--secondary-accent);
+}
+
+/*Footer Styling*/
+
+.footer {
+    width: 100%;
 }
 
 
@@ -73,7 +94,13 @@ body {
     margin: auto;
 }
 
+/* Resources Page */
 
+/* Card Styling */
+
+.card {
+    background-color: var(--secondary-background);
+}
 
 /*Media Queries*/
 

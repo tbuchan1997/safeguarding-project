@@ -1,9 +1,9 @@
 
-# Board Game Guardians
+# Safeguarding Information Hub
 
 [View live project here on GitHub](https://github.io/tbuchan1997/safeguaridng-project)
 
-The **Board Game Guardians** is a board game club dedicated to fostering a fun and inclusive environment while championing the importance of community safeguarding. Aimed at board game lovers in and around Preston, Lancashire, who want to socialize and connect, the club goes beyond games by raising awareness and educating members on safeguarding practices. Through local outreach projects and community-led discusion, **Board Game Guardians** teaches members how to look out for one another, creating a collective responsibility for safety. With scheduled game sessions, the club offers a space where fun and learning about community safeguarding go hand in hand, ensuring a protected and respectful environment for everyone.
+The **Safeguarding Information Hub** is a digital resource dedicated to promoting awareness and best practices in safeguarding. Aimed at individuals, families, and communities seeking to understand and engage with safeguarding issues, the hub serves as an accessible platform for essential guidance and education. Beyond simply providing information, the **Safeguarding Information Hub** empowers users to take proactive steps in protecting themselves and others by offering resources on identifying and addressing potential risks. Through the use of practical advice, the hub fosters a collective responsibility towards safety and respect, creating a supportive, informed environment for everyone.
 
 <br>  
   
@@ -14,38 +14,18 @@ The **Board Game Guardians** is a board game club dedicated to fostering a fun a
 ## CONTENTS  
   
 * [UXD (User Experience Design)](#user-experience-ux)
-  * [User Stories](#user-stories) 
+  
 * [Creation process (Strategy -> Surface)](#creation-process)
-  * [Wireframes](#wireframes)
-* [Design](#design)
-  * [Colour Scheme](#color-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
-* [Page Features](#page-features)
-  * [Navbar](#navbar)
-  * [Hero-Image](#hero-image)
-  * [Tagline & Call to Action](#tagline--call-to-action)
-  * [Business Ethos](#business-ethos)
-  * [Menu Page](#menu-page)
-  * [Contact Page](#contact-page)
-  * [Footer](#footer)  
+ 
 * [Tablet & Mobile View](#tablet--mobile-view)
-  * [Desktop, Tablet & Mobile Differences](#desktop-tablet--mobile-differences)
-  * [Tablet View](#tablet-view-ipad-miniipad-prosurface-pro)
-  * [Mobile View](#mobile-view-iphone-5iphone-seiphone-xriphone-12-pro)
+ 
 * [Future Features](#future-features)
 * [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries, Technologies & Programs Used](#frameworks-libraries-technologies--programs-used)
+  
 * [Deployment](#deployment)
-  * [How to deploy](#how-to-deploy)
+  
 * [Testing](#testing)
-  * [HTML Validation using W3C Validation](#html-validation-using-w3c-validation)
-  * [CSS Validation using W3C Validation](#css-validation-using-w3c-validation)
-  * [Lighthouse scores via Chrome Developer Tools](#lighthouse-scores-via-chrome-developer-tools)
-  * [Bugs & Fixes](#bugs--fixes)
-  * [Unsolved Bugs](#unsolved-bugs)
-* [Credits](#credits) 
+   
 
   
 ---    
@@ -54,6 +34,17 @@ The **Board Game Guardians** is a board game club dedicated to fostering a fun a
   
 ### **User Stories**  
 
+As a user, I want to access a contact section with relevant details so that I can report safeguarding concerns quickly if needed.
+
+As a user, I want to see a bold and clear introductory message so that I immediately understand the importance of safeguarding when I land on the page.
+
+As a user, I want to quickly access key safeguarding principles so that I can understand what safeguarding involves and why it matters.
+
+As a site owner, I want to present a hero section with a bold heading and a relevant image or background so that the website immediately captures the user's attention and communicates the significance of safeguarding.
+
+As a user, I want to find a clear, step-by-step guide for recognizing and responding to safeguarding concerns so that I know what actions to take if I encounter a safeguarding issue.
+
+As a user, I want a color-coded visual hierarchy for different sections so that it is easier to follow the flow of information.
    
 
 --- 
